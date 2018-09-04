@@ -6,16 +6,11 @@
     }
   ],
   "menu": {
-    "data": [
-      {
-        "propertyQuestionaireModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
-        "propertyQuestionaireModuleName": "Property Information",
-        "moduleOrder": 1,
-        "createdOn": 1535986742000,
-        "createdBy": "dd02c9e2-af5b-11e8-a744-e4b97a0444bd",
-        "rowStatus": 1,
-        "questionsCount": 25
-      }
-    ]
+      "posts": [
+        {
+          "id": 1,
+          "title": "hello"
+        }
+      ]
   }
 }
