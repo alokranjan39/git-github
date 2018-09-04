@@ -1,42 +1,278 @@
 {
-  "menu": {
-      "data": [
-        {
-      "propertyQuestionaireModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
-      "propertyQuestionaireModuleName": "Property Information",
+  "module": {
+    "code": "200",
+    "isReviewMode":false,
+    "data": [
+    {
+      "propertyQuestionaireModuleGuid": "dd0b788f-af5b-11e8-a744-e4b97a0444bd",
+      "propertyQuestionaireModuleName": "Additional CSR",
+      "parentModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
       "moduleOrder": 1,
       "createdOn": 1535986742000,
-      "createdBy": "dd02c9e2-af5b-11e8-a744-e4b97a0444bd",
+      "createdBy": "dd133033-af5b-11e8-a744-e4b97a0444bd",
       "rowStatus": 1,
-      "questionsCount": 25
+      "questionDataList": [
+        {
+          "propertyQuestionnaireGuid": "1",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "Hotel name",
+          "questionConfig": {
+            "field_type": "Text",
+            "field_size": "20",
+            "label": "Property Code",
+            "minlength": 10,
+            "maxlength": 20,
+            "isUnEditable": true,
+            "field_value": "",
+            "ishavingError": false
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "null",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": true,
+          "isRestricted": true,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        },
+        {
+          "propertyQuestionnaireGuid": "2",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "HNumber of beds",
+          "questionConfig": {
+            "field_type": "Number",
+            "field_size": "20",
+            "label": "Property Code",
+            "minlength": 10,
+            "maxlength": 20,
+            "isUnEditable": true,
+            "field_value": 4
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "1",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": true,
+          "isRestricted": false,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        },
+        {
+          "propertyQuestionnaireGuid": "3",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "Date of last guest room renovation",
+          "questionConfig": {
+            "field_type": "Date",
+            "field_size": "20",
+            "label": "Date of last guest room renovation",
+            "isUnEditable": false,
+            "field_value": "08-22-2018"
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "1",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": true,
+          "isRestricted": false,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        },
+        {
+          "propertyQuestionnaireGuid": "3",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "Type of breakfast served",
+          "questionConfig": {
+            "field_type": "Select",
+            "field_size": "20",
+            "label": "Date of last guest room renovation",
+            "isUnEditable": false,
+            "field_value": "08-22-2018",
+            "field_options": [
+              {
+                "label": "Continental",
+                "value": "Continental"
+              },
+              {
+                "label": "Buffet",
+                "value": "Buffet"
+              },
+              {
+                "label": "Full American",
+                "value": "Full American"
+              },
+              {
+                "label": "Breakfast Not Offered",
+                "value": "Breakfast Not Offered"
+              }
+            ]
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "1",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": true,
+          "isRestricted": false,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        }
+      ],
+      "questionsCount": 0
     },
     {
-      "propertyQuestionaireModuleGuid": "dcfe5580-af5b-11e8-a744-e4b97a0444bd",
-      "propertyQuestionaireModuleName": "Property Facilities",
+      "propertyQuestionaireModuleGuid": "dd0d0f09-af5b-11e8-a744-e4b97a0444bd",
+      "propertyQuestionaireModuleName": "Airports",
+      "parentModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
       "moduleOrder": 2,
       "createdOn": 1535986742000,
-      "createdBy": "dd051b3a-af5b-11e8-a744-e4b97a0444bd",
+      "createdBy": "dd152960-af5b-11e8-a744-e4b97a0444bd",
       "rowStatus": 1,
-      "questionsCount": 22
-    },
-    {
-      "propertyQuestionaireModuleGuid": "dcffb545-af5b-11e8-a744-e4b97a0444bd",
-      "propertyQuestionaireModuleName": "Guest Room",
-      "moduleOrder": 3,
-      "createdOn": 1535986742000,
-      "createdBy": "dd077c03-af5b-11e8-a744-e4b97a0444bd",
-      "rowStatus": 1,
-      "questionsCount": 24
-    },
-    {
-      "propertyQuestionaireModuleGuid": "dd012530-af5b-11e8-a744-e4b97a0444bd",
-      "propertyQuestionaireModuleName": "Contacts",
-      "moduleOrder": 4,
-      "createdOn": 1535986742000,
-      "createdBy": "dd095b60-af5b-11e8-a744-e4b97a0444bd",
-      "rowStatus": 1,
-      "questionsCount": 25
+      "questionDataList": [
+        {
+          "propertyQuestionnaireGuid": "6",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "Hotel name",
+          "questionConfig": {
+            "field_type": "Text",
+            "field_size": "20",
+            "label": "Property Code",
+            "minlength": 10,
+            "maxlength": 20,
+            "isUnEditable": true,
+            "field_value": "ABCDF",
+            "ishavingError": false
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "null",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": true,
+          "isRestricted": false,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        },
+        {
+          "propertyQuestionnaireGuid": "7",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "HNumber of beds",
+          "questionConfig": {
+            "field_type": "Number",
+            "field_size": "20",
+            "label": "Property Code",
+            "minlength": 10,
+            "maxlength": 20,
+            "isUnEditable": true,
+            "field_value": "44",
+            "ishavingError": false
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "1",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": false,
+          "isRestricted": false,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        },
+        {
+          "propertyQuestionnaireGuid": "8",
+          "questionCode": "string",
+          "questionDesc": "string",
+          "questionLabel": "Date of last guest room renovation",
+          "questionConfig": {
+            "field_type": "Date",
+            "field_size": "20",
+            "label": "Date of last guest room renovation",
+            "isUnEditable": false,
+            "field_value": "08-22-2018",
+            "ishavingError": false
+          },
+          "questionOrder": "string",
+          "parentQuestionGuid": "1",
+          "propertyProfileDataGuid": "string",
+          "propertyProfileGuid": "string",
+          "propertyQuestionGuid": "string",
+          "propertyAnswer": "string",
+          "isRequired": false,
+          "isRestricted": false,
+          "isHidden": false,
+          "rowStatus": 1,
+          "createdBy": "string",
+          "createdOn": "2018-08-22T10:17:11.436Z"
+        }
+      ],
+      "questionsCount": 0
     }
-      ]
+  ]
+  },
+  "menu": {
+    "code": "200",
+    "data": [
+      {
+        "propertyQuestionaireModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionaireModuleName": "Property Information",
+        "moduleOrder": 1,
+        "createdOn": 1535986742000,
+        "createdBy": "dd02c9e2-af5b-11e8-a744-e4b97a0444bd",
+        "rowStatus": 1,
+        "questionsCount": 25
+      },
+      {
+        "propertyQuestionaireModuleGuid": "dcfe5580-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionaireModuleName": "Property Facilities",
+        "moduleOrder": 2,
+        "createdOn": 1535986742000,
+        "createdBy": "dd051b3a-af5b-11e8-a744-e4b97a0444bd",
+        "rowStatus": 1,
+        "questionsCount": 22
+      },
+      {
+        "propertyQuestionaireModuleGuid": "dcffb545-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionaireModuleName": "Guest Room",
+        "moduleOrder": 3,
+        "createdOn": 1535986742000,
+        "createdBy": "dd077c03-af5b-11e8-a744-e4b97a0444bd",
+        "rowStatus": 1,
+        "questionsCount": 25
+      },
+      {
+        "propertyQuestionaireModuleGuid": "dd012530-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionaireModuleName": "Contacts",
+        "moduleOrder": 4,
+        "createdOn": 1535986742000,
+        "createdBy": "dd095b60-af5b-11e8-a744-e4b97a0444bd",
+        "rowStatus": 1,
+        "questionsCount": 25
+      }
+    ]
   }
 }
