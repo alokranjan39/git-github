@@ -1,10 +1,45 @@
 {
-  "posts": [
+  "menu": {
+  "code": "200",
+  "data": [
     {
-      "id": 1,
-      "title": "hello"
+      "propertyQuestionaireModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
+      "propertyQuestionaireModuleName": "Property Information",
+      "moduleOrder": 1,
+      "createdOn": 1535986742000,
+      "createdBy": "dd02c9e2-af5b-11e8-a744-e4b97a0444bd",
+      "rowStatus": 1,
+      "questionsCount": 25
+    },
+    {
+      "propertyQuestionaireModuleGuid": "dcfe5580-af5b-11e8-a744-e4b97a0444bd",
+      "propertyQuestionaireModuleName": "Property Facilities",
+      "moduleOrder": 2,
+      "createdOn": 1535986742000,
+      "createdBy": "dd051b3a-af5b-11e8-a744-e4b97a0444bd",
+      "rowStatus": 1,
+      "questionsCount": 22
+    },
+    {
+      "propertyQuestionaireModuleGuid": "dcffb545-af5b-11e8-a744-e4b97a0444bd",
+      "propertyQuestionaireModuleName": "Guest Room",
+      "moduleOrder": 3,
+      "createdOn": 1535986742000,
+      "createdBy": "dd077c03-af5b-11e8-a744-e4b97a0444bd",
+      "rowStatus": 1,
+      "questionsCount": 25
+    },
+    {
+      "propertyQuestionaireModuleGuid": "dd012530-af5b-11e8-a744-e4b97a0444bd",
+      "propertyQuestionaireModuleName": "Contacts",
+      "moduleOrder": 4,
+      "createdOn": 1535986742000,
+      "createdBy": "dd095b60-af5b-11e8-a744-e4b97a0444bd",
+      "rowStatus": 1,
+      "questionsCount": 25
     }
-  ],
+  ]
+},
   "profile": {
     "name": "typicode"
   }
