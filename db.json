@@ -11,6 +11,7 @@
       "createdOn": 1535986742000,
       "createdBy": "dd133033-af5b-11e8-a744-e4b97a0444bd",
       "rowStatus": 1,
+      "ishavingError": true
       "questionDataList": [
         {
           "propertyQuestionnaireGuid": "1",
@@ -52,7 +53,8 @@
             "minlength": 10,
             "maxlength": 20,
             "isUnEditable": true,
-            "field_value": 4
+            "field_value": 4,
+            "ishavingError": false
           },
           "questionOrder": "string",
           "parentQuestionGuid": "1",
@@ -77,7 +79,8 @@
             "field_size": "20",
             "label": "Date of last guest room renovation",
             "isUnEditable": false,
-            "field_value": "08-22-2018"
+            "field_value": "08-22-2018",
+            "ishavingError": false
           },
           "questionOrder": "string",
           "parentQuestionGuid": "1",
@@ -102,7 +105,7 @@
             "field_size": "20",
             "label": "Date of last guest room renovation",
             "isUnEditable": false,
-            "field_value": "08-22-2018",
+            "field_value": "",
             "field_options": [
               {
                 "label": "Continental",
@@ -120,7 +123,8 @@
                 "label": "Breakfast Not Offered",
                 "value": "Breakfast Not Offered"
               }
-            ]
+            ],
+            "ishavingError": true
           },
           "questionOrder": "string",
           "parentQuestionGuid": "1",
@@ -146,6 +150,7 @@
       "createdOn": 1535986742000,
       "createdBy": "dd152960-af5b-11e8-a744-e4b97a0444bd",
       "rowStatus": 1,
+      "ishavingError": false,
       "questionDataList": [
         {
           "propertyQuestionnaireGuid": "6",
