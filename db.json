@@ -11,7 +11,7 @@
       "createdOn": 1535986742000,
       "createdBy": "dd133033-af5b-11e8-a744-e4b97a0444bd",
       "rowStatus": 1,
-      "ishavingError": true
+      "ishavingError": true,
       "questionDataList": [
         {
           "propertyQuestionnaireGuid": "1",
