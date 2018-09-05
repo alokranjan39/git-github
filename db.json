@@ -25,7 +25,7 @@
             "minlength": 10,
             "maxlength": 20,
             "isUnEditable": true,
-            "field_value": "",
+            "field_value": "DALROTI",
             "ishavingError": false
           },
           "questionOrder": "string",
@@ -105,7 +105,7 @@
             "field_size": "20",
             "label": "Date of last guest room renovation",
             "isUnEditable": false,
-            "field_value": "",
+            "field_value": "Buffet",
             "field_options": [
               {
                 "label": "Continental",
