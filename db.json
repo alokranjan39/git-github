@@ -25,7 +25,7 @@
             "minlength": 10,
             "maxlength": 20,
             "isUnEditable": true,
-            "field_value": "",
+            "field_value":"",
             "ishavingError": false
           },
           "questionOrder": "string",
