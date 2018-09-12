@@ -12,7 +12,7 @@
           "createdOn": 1536749277000,
           "createdBy": "33f68acb-b64b-11e8-95e2-f8cab82d310e",
           "rowStatus": 1,
-          "questionDataList": [
+          "questionsData": [
             {
               "propertyProfileDataGuid": "8de14766-ae90-4551-8a84-f8f3d6d936d6",
               "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
@@ -66,7 +66,7 @@
           "createdOn": 1536749277000,
           "createdBy": "33fb2c0c-b64b-11e8-95e2-f8cab82d310e",
           "rowStatus": 1,
-          "questionDataList": [
+          "questionsData": [
             {
               "propertyProfileDataGuid": "664958a4-92d4-4ca6-9f67-d07066209566",
               "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
@@ -106,7 +106,7 @@
           "createdOn": 1536749277000,
           "createdBy": "33ffae15-b64b-11e8-95e2-f8cab82d310e",
           "rowStatus": 1,
-          "questionDataList": [
+          "questionsData": [
             {
               "propertyProfileDataGuid": "eef84c43-89c6-459f-b232-838ba110e664",
               "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
