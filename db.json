@@ -31,14 +31,14 @@
               "propertyProfileDataGuid": "85d5042c-69d2-4f92-bc35-07ec43699804",
               "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
               "propertyQuestionGuid": "437e05e3-dfc3-4b01-8f3d-5e0431ccfaab",
-              "propertyAnswer": "Indiranagar",
+              "propertyAnswer": "",
               "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
               "questionCode": "XYZ",
               "questionDesc": "Hotel street address",
               "questionConfig": "{\r\n \"field_type\": \"Text\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true,\r\n \"field_value\": \"ABC\"\r\n}",
               "questionOrder": 10,
               "hidden": false,
-              "required": true,
+              "required": false,
               "restricted": false
             },
             {
