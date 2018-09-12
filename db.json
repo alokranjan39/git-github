@@ -125,7 +125,7 @@
           "questionsCount": 0
         }
       ],
-      "profileStatusText": "[\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"d2d85b1d-e66c-4905-8dd6-1b433f97ee8a\",\r\n    \"profileStatus\": \"Review Completed\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"d2d85b1d-e66c-4905-8dd6-1b433f97ee8a\",\r\n    \"profileStatus\": \"Review Pending\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"d2d85b1d-e66c-4905-8dd6-1b433f97ee8a\",\r\n    \"profileStatus\": \"Review Pending\"\r\n  }\r\n]"
+      "groupReviewStatus": "[\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"d2d85b1d-e66c-4905-8dd6-1b433f97ee8a\",\r\n    \"profileStatus\": \"Review Completed\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"d2d85b1d-e66c-4905-8dd6-1b433f97ee8a\",\r\n    \"profileStatus\": \"Review Pending\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"d2d85b1d-e66c-4905-8dd6-1b433f97ee8a\",\r\n    \"profileStatus\": \"Review Pending\"\r\n  }\r\n]"
     }
   },
   "menu": {
