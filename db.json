@@ -243,20 +243,7 @@
               "required": true,
               "restricted": false
             },
-            {
-              "propertyProfileDataGuid": "b6764212-785e-4d85-801c-846419ab8c6d",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "48b80bbf-61df-425b-ad84-741d9b753f38",
-              "propertyAnswer": "Yes it have",
-              "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
-              "questionCode": "XYZ",
-              "questionDesc": "Value added tax (VAT/GST) amount on Guest Room",
-              "questionConfig": " {\r\n \"field_type\": \"Number\",\r\n \"field_size\": \"20\",\r\n \"label\": \"ISDN RATE\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true,\r\n \"field_value\": 4\r\n}",
-              "questionOrder": 21,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            },
+
             {
               "propertyProfileDataGuid": "4ee255e3-5fbb-43ac-bd21-76d2dc95ade1",
               "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
