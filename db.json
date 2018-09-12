@@ -3,7 +3,7 @@
     "code": "200",
     "isReviewMode": false,
     "data": {
-      "subModuleList": [
+      "subModules": [
         {
           "propertyQuestionaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
           "propertyQuestionaireModuleName": "Basic Property Information",
