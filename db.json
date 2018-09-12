@@ -38,7 +38,7 @@
               "questionConfig": "{\r\n \"field_type\": \"Text\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true,\r\n \"field_value\": \"ABC\"\r\n}",
               "questionOrder": 10,
               "hidden": false,
-              "required": false,
+              "required": true,
               "restricted": false
             },
             {
