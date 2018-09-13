@@ -5,7 +5,7 @@
     "data": {
       "subModules": [
         {
-          "propertyQuestionaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
+          "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
           "propertyQuestionaireModuleName": "Basic Property Information",
           "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
           "moduleOrder": 3,
@@ -59,7 +59,7 @@
           "questionsCount": 0
         },
         {
-          "propertyQuestionaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
+          "propertyQuestionnaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
           "propertyQuestionaireModuleName": "Check-In / Check-Out",
           "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
           "moduleOrder": 4,
@@ -99,7 +99,7 @@
           "questionsCount": 0
         },
         {
-          "propertyQuestionaireModuleGuid": "2263da39-253c-4654-a3ab-f948a584c661",
+          "propertyQuestionnaireModuleGuid": "2263da39-253c-4654-a3ab-f948a584c661",
           "propertyQuestionaireModuleName": "Hotel Breakfast",
           "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
           "moduleOrder": 11,
@@ -132,7 +132,7 @@
     "code": "200",
     "data": [
       {
-        "propertyQuestionaireModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionnaireModuleGuid": "dcfcfd2b-af5b-11e8-a744-e4b97a0444bd",
         "propertyQuestionaireModuleName": "Property Information",
         "moduleOrder": 1,
         "createdOn": 1535986742000,
@@ -141,7 +141,7 @@
         "questionsCount": 25
       },
       {
-        "propertyQuestionaireModuleGuid": "dcfe5580-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionnaireModuleGuid": "dcfe5580-af5b-11e8-a744-e4b97a0444bd",
         "propertyQuestionaireModuleName": "Property Facilities",
         "moduleOrder": 2,
         "createdOn": 1535986742000,
@@ -150,7 +150,7 @@
         "questionsCount": 22
       },
       {
-        "propertyQuestionaireModuleGuid": "dcffb545-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionnaireModuleGuid": "dcffb545-af5b-11e8-a744-e4b97a0444bd",
         "propertyQuestionaireModuleName": "Guest Room",
         "moduleOrder": 3,
         "createdOn": 1535986742000,
@@ -159,7 +159,7 @@
         "questionsCount": 25
       },
       {
-        "propertyQuestionaireModuleGuid": "dd012530-af5b-11e8-a744-e4b97a0444bd",
+        "propertyQuestionnaireModuleGuid": "dd012530-af5b-11e8-a744-e4b97a0444bd",
         "propertyQuestionaireModuleName": "Contacts",
         "moduleOrder": 4,
         "createdOn": 1535986742000,
