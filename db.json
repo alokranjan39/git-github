@@ -4,126 +4,262 @@
     "isReviewMode": false,
     "data": {
       "subModules": [
-        {
-          "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
-          "propertyQuestionnaireModuleName": "Basic Property Information",
-          "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
-          "moduleOrder": 3,
-          "createdOn": 1536749277000,
-          "createdBy": "33f68acb-b64b-11e8-95e2-f8cab82d310e",
-          "rowStatus": 1,
-          "questionsData": [
-            {
-              "propertyProfileDataGuid": "8de14766-ae90-4551-8a84-f8f3d6d936d6",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "492319a9-b4c2-4cdf-a2fe-ed2a7f1f99e9",
-              "propertyAnswer": "ABC",
-              "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
-              "questionCode": "XYZ",
-              "questionDesc": "Hotel name",
-              "questionConfig": "{\r\n \"field_type\": \"Text\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true,\r\n \"field_value\": \"ABC\"\r\n}",
-              "questionOrder": 9,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            },
-            {
-              "propertyProfileDataGuid": "85d5042c-69d2-4f92-bc35-07ec43699804",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "437e05e3-dfc3-4b01-8f3d-5e0431ccfaab",
-              "propertyAnswer": "",
-              "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
-              "questionCode": "XYZ",
-              "questionDesc": "Hotel street address",
-              "questionConfig": "{\r\n \"field_type\": \"Text\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true,\r\n \"field_value\": \"ABC\"\r\n}",
-              "questionOrder": 10,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            },
-            {
-              "propertyProfileDataGuid": "7b0a63f7-0770-430b-8895-78693d342070",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "710f8e68-7af1-43b6-9d8f-4ef0b92d6cf6",
-              "propertyAnswer": "00546",
-              "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
-              "questionCode": "XYZ",
-              "questionDesc": "Internal hotel code / Property Code",
-              "questionConfig": " {\r\n \"field_type\": \"Text\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true,\r\n \"field_value\": \"ABC\"\r\n}",
-              "questionOrder": 11,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            }
-          ],
-          "questionsCount": 0
-        },
-        {
-          "propertyQuestionnaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
-          "propertyQuestionnaireModuleName": "Check-In / Check-Out",
-          "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
-          "moduleOrder": 4,
-          "createdOn": 1536749277000,
-          "createdBy": "33fb2c0c-b64b-11e8-95e2-f8cab82d310e",
-          "rowStatus": 1,
-          "questionsData": [
-            {
-              "propertyProfileDataGuid": "664958a4-92d4-4ca6-9f67-d07066209566",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "be686533-a45a-4960-8f05-de9dc4d76823",
-              "propertyAnswer": "22",
-              "propertyQuestionnaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
-              "questionCode": "XYZ",
-              "questionDesc": "Check-in time (24 hour clock, 1200 for noon)",
-              "questionConfig": " {\r\n \"field_type\": \"Alphanumeric\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true\r\n}",
-              "questionOrder": 4,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            },
-            {
-              "propertyProfileDataGuid": "6cdac559-1997-41b8-9173-ff1e975ff262",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "503d84de-823c-464f-87d4-baae6b52e5ff",
-              "propertyAnswer": "23",
-              "propertyQuestionnaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
-              "questionCode": "XYZ",
-              "questionDesc": "Check-out time (24 hour clock, 1200 for noon) ",
-              "questionConfig": " {\r\n \"field_type\": \"Alphanumeric\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Property Code\",\r\n \"minlength\": 10,\r\n \"maxlength\": 20,\r\n \"isUnEditable\":true\r\n}",
-              "questionOrder": 5,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            }
-          ],
-          "questionsCount": 0
-        },
-        {
-          "propertyQuestionnaireModuleGuid": "2263da39-253c-4654-a3ab-f948a584c661",
-          "propertyQuestionnaireModuleName": "Hotel Breakfast",
-          "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
-          "moduleOrder": 11,
-          "createdOn": 1536749277000,
-          "createdBy": "33ffae15-b64b-11e8-95e2-f8cab82d310e",
-          "rowStatus": 1,
-          "questionsData": [
-            {
-              "propertyProfileDataGuid": "eef84c43-89c6-459f-b232-838ba110e664",
-              "propertyProfileGuid": "19bc5e03-a4f4-447e-a7f7-bb0ad8df0a00",
-              "propertyQuestionGuid": "0ee27fed-6356-4e31-b21a-172a42239996",
-              "propertyAnswer": "Full American",
-              "propertyQuestionnaireModuleGuid": "2263da39-253c-4654-a3ab-f948a584c661",
-              "questionCode": "XYZ",
-              "questionDesc": "Type of breakfast served",
-              "questionConfig": " {\r\n \"field_type\": \"Select\",\r\n \"field_size\": \"20\",\r\n \"label\": \"Type of breakfast served\",\r\n \"isUnEditable\":false,\r\n \"field_value\": \"Continental\",\r\n \"field_options\": [{ \"label\": \"Continental\", \"value\": \"Continental\"}, { \"label\": \"Buffet\", \"value\": \"Buffet\" }, { \"label\": \"Full American\", \"value\": \"Full American\" }, { \"label\": \"Breakfast Not Offered\", \"value\": \"Breakfast Not Offered\"}] \r\n}\r\n",
-              "questionOrder": 5,
-              "hidden": false,
-              "required": true,
-              "restricted": false
-            }
-          ],
-          "questionsCount": 0
-        }
+      {
+        "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
+        "propertyQuestionnaireModuleName": "Basic Property Information",
+        "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
+        "moduleOrder": 3,
+        "createdOn": 1536720536000,
+        "createdBy": "4d329116-b660-11e8-9925-0050569f12ad",
+        "rowStatus": 1,
+        "questionsData": [
+          {
+            "propertyProfileDataGuid": "cf31055d-daeb-46f8-9bcd-b89beb328b04",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "492319a9-b4c2-4cdf-a2fe-ed2a7f1f99e9",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
+            "questionCode": "XYZ",
+            "questionDesc": "Hotel name",
+            "questionConfig": "{\r\n    \"field_type\": \"Text\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"Property Code\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": \"ABC\"\r\n}",
+            "questionOrder": 9,
+            "required": true,
+            "hidden": true,
+            "restricted": true
+          },
+          {
+            "propertyProfileDataGuid": "e19f81ba-a86b-4708-9c06-207b46ca1a44",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "437e05e3-dfc3-4b01-8f3d-5e0431ccfaab",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
+            "questionCode": "XYZ",
+            "questionDesc": "Hotel street address",
+            "questionConfig": "{\r\n    \"field_type\": \"Text\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"Property Code\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": \"ABC\"\r\n}",
+            "questionOrder": 10,
+            "required": true,
+            "hidden": true,
+            "restricted": true
+          },
+          {
+            "propertyProfileDataGuid": "8041bc3a-52ab-443e-9dc7-d48ee69ab7c1",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "710f8e68-7af1-43b6-9d8f-4ef0b92d6cf6",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "f40d2e70-39de-462f-948c-729be246f5d9",
+            "questionCode": "XYZ",
+            "questionDesc": "Internal hotel code / Property Code",
+            "questionConfig": " {\r\n    \"field_type\": \"Text\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"Property Code\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": \"ABC\"\r\n}",
+            "questionOrder": 11,
+            "required": true,
+            "hidden": true,
+            "restricted": true
+          }
+        ],
+        "questionsCount": 0
+      },
+      {
+        "propertyQuestionnaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
+        "propertyQuestionnaireModuleName": "Check-In / Check-Out",
+        "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
+        "moduleOrder": 4,
+        "createdOn": 1536720536000,
+        "createdBy": "4d990270-b660-11e8-9925-0050569f12ad",
+        "rowStatus": 1,
+        "questionsData": [
+          {
+            "propertyProfileDataGuid": "4c3bc5d2-914b-4eea-9923-26a86ac50d57",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "503d84de-823c-464f-87d4-baae6b52e5ff",
+            "propertyAnswer": "A23333",
+            "propertyQuestionnaireModuleGuid": "da5e7ebd-bf7a-4b2a-b119-970785288bc1",
+            "questionCode": "XYZ",
+            "questionDesc": "Check-out time (24 hour clock, 1200 for noon) ",
+            "questionConfig": " {\r\n    \"field_type\": \"Alphanumeric\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"Property Code\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true\r\n}",
+            "questionOrder": 5,
+            "required": false,
+            "hidden": false,
+            "restricted": false
+          }
+        ],
+        "questionsCount": 0
+      },
+      {
+        "propertyQuestionnaireModuleGuid": "2263da39-253c-4654-a3ab-f948a584c661",
+        "propertyQuestionnaireModuleName": "Hotel Breakfast",
+        "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
+        "moduleOrder": 11,
+        "createdOn": 1536720537000,
+        "createdBy": "4e1934b8-b660-11e8-9925-0050569f12ad",
+        "rowStatus": 1,
+        "questionsData": [
+          {
+            "propertyProfileDataGuid": "a64073ab-cf75-4dac-8296-cc0f102e80a2",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "0ee27fed-6356-4e31-b21a-172a42239996",
+            "propertyAnswer": "Chineese",
+            "propertyQuestionnaireModuleGuid": "2263da39-253c-4654-a3ab-f948a584c661",
+            "questionCode": "XYZ",
+            "questionDesc": "Type of breakfast served",
+            "questionConfig": " {\r\n  \"field_type\": \"Select\",\r\n  \"field_size\": \"20\",\r\n  \"label\": \"Type of breakfast served\",\r\n  \"isUnEditable\":false,\r\n  \"field_value\": \"08-22-2018\",\r\n  \"field_options\": [{ \"label\": \"Continental\", \"value\": \"Continental\"}, { \"label\": \"Buffet\", \"value\": \"Buffet\" }, { \"label\": \"Full American\", \"value\": \"Full American\" }, { \"label\": \"Breakfast Not Offered\", \"value\": \"Breakfast Not Offered\"}]       \r\n}\r\n",
+            "questionOrder": 5,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          }
+        ],
+        "questionsCount": 0
+      },
+      {
+        "propertyQuestionnaireModuleGuid": "a7343c62-447a-4089-a9d4-b0c66169ae8d",
+        "propertyQuestionnaireModuleName": "Hotel Services - Part 1",
+        "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
+        "moduleOrder": 14,
+        "createdOn": 1536720538000,
+        "createdBy": "4e714d4c-b660-11e8-9925-0050569f12ad",
+        "rowStatus": 1,
+        "questionsData": [
+          {
+            "propertyProfileDataGuid": "53c851cd-d44c-4568-a845-6ed088ff1631",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "c24e69eb-082b-4071-9a3a-aee3202687d5",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "a7343c62-447a-4089-a9d4-b0c66169ae8d",
+            "questionCode": "XYZ",
+            "questionDesc": "Front desk hours from (24 hour clock, 1200 for noon)<br>(use 0000 here for 24h service)",
+            "questionConfig": " {\r\n    \"field_type\": \"Alphanumeric\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"Property Code\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true\r\n}",
+            "questionOrder": 4,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          }
+        ],
+        "questionsCount": 0
+      },
+      {
+        "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+        "propertyQuestionnaireModuleName": "Tax and Service Charges",
+        "parentModuleGuid": "d94f0391-8e1d-4bb1-a452-7981483add19",
+        "moduleOrder": 21,
+        "createdOn": 1536720539000,
+        "createdBy": "4f012d54-b660-11e8-9925-0050569f12ad",
+        "rowStatus": 1,
+        "questionsData": [
+          {
+            "propertyProfileDataGuid": "cec77c20-1e53-40bf-951a-8fe1adfff076",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "084944c2-9586-4180-9a97-6870561f7d2c",
+            "propertyAnswer": "Per Person Per Day",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "City tax - per person or per night",
+            "questionConfig": " {\r\n  \"field_type\": \"Select\",\r\n  \"field_size\": \"20\",\r\n  \"label\": \"City tax - per person or per night\",\r\n  \"isUnEditable\":false,\r\n  \"field_options\": [{ \"label\": \"Per Person Per Day\", \"value\": \"Per Person Per Day\"}, { \"label\": \"Per Person Per Night\", \"value\": \"Per Person Per Night\" }, { \"label\": \"Per Room Per Day\", \"value\": \"Per Room Per Day\" }, { \"label\": \"Per Room Per Night\", \"value\": \"Per Room Per Night\"}]       \r\n}\r\n",
+            "questionOrder": 1,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "8d32d70e-9cec-4340-886c-c44ecfae32b5",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "dfc37a7b-2d15-4e78-b05e-3dfcdaa86225",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "Lodging tax - unit of measure",
+            "questionConfig": " {\n    \"field_type\": \"Select\",\n    \"label\": \"State tax - unit of measure\",\n    \"isUnEditable\":false,\n    \"field_value\": \"MYR\",\n    \"field_options\": [{ \"label\": \"United Arab Emirates dirham\", \"value\": \"AED\"}, { \"label\": \"Australian dollar\", \"value\": \"AUD\" }, { \"label\": \"Canadian dollar\", \"value\": \"CAD\" },{ \"label\": \"Euro\", \"value\": \"EUR\"},{ \"label\":   \"Pound sterling\", \"value\": \"GBP\"},{ \"label\": \"Indian rupee\", \"value\": \"INR\"},{ \"label\": \"Malaysian ringgit\", \"value\": \"MYR\"},{ \"label\": \"Singapore dollar\", \"value\": \"SGD\"},{ \"label\": \"United States dollar\", \"value\": \"USD\"}]      \n}",
+            "questionOrder": 5,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "b07c2271-0a10-4b8f-abeb-77ab8428c4c1",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "1bcaa33c-1e05-4f9d-8ca7-dff693c7c405",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "Lodging tax amount",
+            "questionConfig": " {\r\n    \"field_type\": \"Number\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"ISDN RATE\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": 4\r\n}",
+            "questionOrder": 6,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "6be96788-82fa-476c-9768-c71455c418a8",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "53489343-9e62-48d3-9301-da45de5b7fb4",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "Occupancy tax - unit of measure",
+            "questionConfig": " {\r\n    \"field_type\": \"Select\",\r\n    \"label\": \"State tax - unit of measure\",\r\n    \"isUnEditable\":false,\r\n    \"field_value\": \"MYR\",\r\n    \"field_options\": [{ \"label\": \"United Arab Emirates dirham\", \"value\": \"AED\"}, { \"label\": \"Australian dollar\", \"value\": \"AUD\" }, { \"label\": \"Canadian dollar\", \"value\": \"CAD\" },{ \"label\": \"Euro\", \"value\": \"EUR\"},{ \"label\":   \"Pound sterling\", \"value\": \"GBP\"},{ \"label\": \"Indian rupee\", \"value\": \"INR\"},{ \"label\": \"Malaysian ringgit\", \"value\": \"MYR\"},{ \"label\": \"Singapore dollar\", \"value\": \"SGD\"},{ \"label\": \"United States dollar\", \"value\": \"USD\"}]      \r\n}",
+            "questionOrder": 7,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "8d76de1b-db11-4716-9ef1-06b66d1d197c",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "2880905a-09c4-44e6-b617-d6d7cda1a610",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "Occupancy tax amount",
+            "questionConfig": " {\r\n    \"field_type\": \"Number\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"ISDN RATE\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": 4\r\n}",
+            "questionOrder": 8,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "20723dae-5c9e-47c5-bdf1-b0a62ae928fa",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "e684fd79-6ca4-4e25-b84a-fdc2b4c6364e",
+            "propertyAnswer": "Per Person Per Night",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "Other tax rule",
+            "questionConfig": " {\r\n  \"field_type\": \"Select\",\r\n  \"field_size\": \"20\",\r\n  \"label\": \"City tax - per person or per night\",\r\n  \"isUnEditable\":false,\r\n  \"field_options\": [{ \"label\": \"Per Person Per Day\", \"value\": \"Per Person Per Day\"}, { \"label\": \"Per Person Per Night\", \"value\": \"Per Person Per Night\" }, { \"label\": \"Per Room Per Day\", \"value\": \"Per Room Per Day\" }, { \"label\": \"Per Room Per Night\", \"value\": \"Per Room Per Night\"}]       \r\n}\r\n",
+            "questionOrder": 10,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "48dfd2d0-fb8c-4416-bcd7-664f40c37493",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "48b80bbf-61df-425b-ad84-741d9b753f38",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "Value added tax (VAT/GST) amount on Guest Room",
+            "questionConfig": " {\r\n    \"field_type\": \"Number\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"ISDN RATE\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": 4\r\n}",
+            "questionOrder": 21,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          },
+          {
+            "propertyProfileDataGuid": "0c9d240b-9bb8-41f2-8599-27a5c874e156",
+            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
+            "propertyQuestionGuid": "ccebd830-3ea6-4b2a-bef5-77fd9091860c",
+            "propertyAnswer": "Yes it have",
+            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
+            "questionCode": "XYZ",
+            "questionDesc": "VAT/GST on Guest Room - unit of measure",
+            "questionConfig": " {\r\n    \"field_type\": \"Select\",\r\n    \"label\": \"State tax - unit of measure\",\r\n    \"isUnEditable\":false,\r\n    \"field_value\": \"MYR\",\r\n    \"field_options\": [{ \"label\": \"United Arab Emirates dirham\", \"value\": \"AED\"}, { \"label\": \"Australian dollar\", \"value\": \"AUD\" }, { \"label\": \"Canadian dollar\", \"value\": \"CAD\" },{ \"label\": \"Euro\", \"value\": \"EUR\"},{ \"label\":   \"Pound sterling\", \"value\": \"GBP\"},{ \"label\": \"Indian rupee\", \"value\": \"INR\"},{ \"label\": \"Malaysian ringgit\", \"value\": \"MYR\"},{ \"label\": \"Singapore dollar\", \"value\": \"SGD\"},{ \"label\": \"United States dollar\", \"value\": \"USD\"}]      \r\n}",
+            "questionOrder": 22,
+            "required": true,
+            "hidden": false,
+            "restricted": false
+          }
+        ],
+        "questionsCount": 0
+      }
       ],
       "groupReviewStatus": "[\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"f40d2e70-39de-462f-948c-729be246f5d9\",\r\n    \"profileStatus\": \"Needs Review\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"da5e7ebd-bf7a-4b2a-b119-970785288bc1\",\r\n    \"profileStatus\": \"Reviewed\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"2263da39-253c-4654-a3ab-f948a584c661\",\r\n    \"profileStatus\": \"Needs Review\"\r\n  }\r\n]"
     }
