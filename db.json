@@ -229,34 +229,7 @@
             "hidden": false,
             "restricted": false
           },
-          {
-            "propertyProfileDataGuid": "48dfd2d0-fb8c-4416-bcd7-664f40c37493",
-            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
-            "propertyQuestionGuid": "48b80bbf-61df-425b-ad84-741d9b753f38",
-            "propertyAnswer": "Yes it have",
-            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
-            "questionCode": "XYZ",
-            "questionDesc": "Value added tax (VAT/GST) amount on Guest Room",
-            "questionConfig": " {\r\n    \"field_type\": \"Number\",\r\n    \"field_size\": \"20\",\r\n    \"label\": \"ISDN RATE\",\r\n    \"minlength\": 10,\r\n    \"maxlength\": 20,\r\n    \"isUnEditable\":true,\r\n    \"field_value\": 4\r\n}",
-            "questionOrder": 21,
-            "required": true,
-            "hidden": false,
-            "restricted": false
-          },
-          {
-            "propertyProfileDataGuid": "0c9d240b-9bb8-41f2-8599-27a5c874e156",
-            "propertyProfileGuid": "9ee81ed3-f476-4a52-a328-1a1fffaeff26",
-            "propertyQuestionGuid": "ccebd830-3ea6-4b2a-bef5-77fd9091860c",
-            "propertyAnswer": "Yes it have",
-            "propertyQuestionnaireModuleGuid": "d2d85b1d-e66c-4905-8dd6-1b433f97ee8a",
-            "questionCode": "XYZ",
-            "questionDesc": "VAT/GST on Guest Room - unit of measure",
-            "questionConfig": " {\r\n    \"field_type\": \"Select\",\r\n    \"label\": \"State tax - unit of measure\",\r\n    \"isUnEditable\":false,\r\n    \"field_value\": \"MYR\",\r\n    \"field_options\": [{ \"label\": \"United Arab Emirates dirham\", \"value\": \"AED\"}, { \"label\": \"Australian dollar\", \"value\": \"AUD\" }, { \"label\": \"Canadian dollar\", \"value\": \"CAD\" },{ \"label\": \"Euro\", \"value\": \"EUR\"},{ \"label\":   \"Pound sterling\", \"value\": \"GBP\"},{ \"label\": \"Indian rupee\", \"value\": \"INR\"},{ \"label\": \"Malaysian ringgit\", \"value\": \"MYR\"},{ \"label\": \"Singapore dollar\", \"value\": \"SGD\"},{ \"label\": \"United States dollar\", \"value\": \"USD\"}]      \r\n}",
-            "questionOrder": 22,
-            "required": true,
-            "hidden": false,
-            "restricted": false
-          }
+
         ],
         "questionsCount": 0
       }
