@@ -109,8 +109,7 @@
           ],
           "questionsCount": 0
         }
-      ],
-      "groupReviewStatus": "[\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"f40d2e70-39de-462f-948c-729be246f5d9\",\r\n    \"profileStatus\": \"Needs Review\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"da5e7ebd-bf7a-4b2a-b119-970785288bc1\",\r\n    \"profileStatus\": \"Reviewed\"\r\n  },\r\n  {\r\n    \"propertyQuestionnaireModuleGuid\": \"2263da39-253c-4654-a3ab-f948a584c661\",\r\n    \"profileStatus\": \"Needs Review\"\r\n  }\r\n]"
+      ]
     }
   },
   "menu": {
